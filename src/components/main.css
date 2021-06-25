@@ -1,0 +1,251 @@
+.Main{
+    margin: 100px 120px 0 120px;
+    font-family:"Georgia",sans-serif;
+}
+.Main__Content{
+    height: 410px;
+}
+.Main__Top{
+    text-align: center;
+    font-size: 24px;
+}
+.Main__UI{
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+.Main__Menu{
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding-left: 17px;
+}
+.Menu__Find, .Menu__Sprav, .Menu__Add{
+    text-align: center;
+    border: solid 3px seagreen;
+    border-radius: 25px;
+    margin-top: 12px;
+    padding: 15px;
+}
+.Main__Footer{
+    text-align: center;
+}
+
+.Menu__Btm {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    width: 88px;
+    font-weight: bold;
+    color: rgb(68,68,68);
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background-color: #ebe6d9;
+    transition: all .218s ease 0s;
+}
+.Menu__Btm:hover {
+    color: rgb(24,24,24);
+    border: 1px solid rgb(198,198,198);
+    background-color: #ebe6d9;
+    box-shadow: 0 3px 4px rgba(0,0,0,.1);
+}
+.Menu__Btm:active {
+    color: rgb(51,51,51);
+    border: 1px solid rgb(204,204,204);
+    background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    color: rgb(191, 108, 92);
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom:-35%;
+    left: 170%;
+    margin-left: 10px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.Node__id{
+    display: none;
+}
+.Node__btm{
+    float: left;
+}
+.Node__info{
+    float: left;
+    width: 76%;
+}
+.Node__date{
+    font-size: 12px;
+}
+.View__nodes{
+    height: 368px;
+    overflow-y: scroll;
+    border-top:solid 2px black;
+}
+.View__nodes::-webkit-scrollbar, .Search__results::-webkit-scrollbar{
+    width: 0;
+}
+
+.Main__Node{
+    background-color: #ebe6d9;
+    color: seagreen;
+    border: solid 3px seagreen;
+    border-radius: 7px;
+    margin: 3px 0 3px 0;
+    padding: 4px;
+    height: 63px;
+    font-size: 18px;
+}
+.Search__req{
+    display: none;
+    overflow-y:hidden;
+}
+
+.Nodes__up{
+    display: none;
+    position: absolute;
+    left:60%;
+}
+.Order__select, .Search__street{
+    border: 1px solid  seagreen;
+    font-size: 14px;
+    color: seagreen;
+    background-color: #ebe6d9;
+    border-radius: 5px;
+    outline: none;
+}
+.Order__choose{
+    margin: 5px 5px 10px 5px;
+}
+.Search__results{
+    height: 268px;
+    overflow-y: scroll;
+    border-top:solid 2px black;
+    margin: 0 5px 0 ;
+}
+.Label{
+    font-size: 20px;
+    color: black;
+    font-family: "Bookman Old Style",sans-serif;
+    margin: 5px;
+}
+.Search__field{
+    margin: 15px 0 5px 10px;
+    border: 2px solid  seagreen;
+    border-radius: 24px;
+    padding: 8px;
+}
+.Search__field input{
+    width: 400px;
+    font-size: 17px;
+    font-weight: bold;
+    color: seagreen;
+    background-color: #ebe6d9;
+    outline-color: seagreen;
+    margin-left: 10px;
+}
+.Search__btm{
+    text-align: center;
+    margin-left: 29px;
+}
+.Search__select{
+    font-size: 17px;
+    color: black;
+    font-family: "Bookman Old Style",sans-serif;
+    margin: 5px 5px 5px 300px;
+}
+.User__data{
+    margin-top: 15px;
+    border: solid 3px seagreen;
+    border-radius: 7px;
+    background-color: #ebe6d9;
+    color: seagreen;
+}
+.User__data__color{
+    color: #ff3200;
+}
+.User__name, .User__address,.User__number,.User__create_date,.User__upd_date,.User__btm_upd,.User__btm_del{
+    margin-left: 15px;
+    margin-bottom: 4px;
+}
+.Menu__form{
+    margin-top: 10px;
+    border: solid 3px seagreen;
+    border-radius: 7px;
+    background-color: #ebe6d9;
+    color: seagreen;
+}
+.Form__elem{
+    margin: 10px;
+}
+.Form__elem label{
+    font-size: 16px;
+}
+.Form__elem input{
+
+    font-size: 14px;
+    color: seagreen;
+    outline-color: seagreen;
+    margin-right: 6px;
+}
+.Form__submit input{
+    margin: 0 0 10px 20px;
+    width: 126px;
+    background-color: white;
+}
+.Form__submit input:hover{
+    background-color: white;
+}
+.input__number__err,.input__address__err,.input__fullname__err{
+    color: red;
+}
+.form__input__address{
+    width: 250px;
+    margin-left: 101px;
+}
+.form__input__fullname{
+    width: 250px;
+    margin-left: 54px;
+}
+.form__input__number{
+    width: 150px;
+    margin-left: 20px;
+}
+.Phone__img{
+    width: 300px;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
